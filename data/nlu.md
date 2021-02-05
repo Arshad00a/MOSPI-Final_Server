@@ -115,11 +115,10 @@
 
 ## intent:FAQ
 - FAQ
-- FAQ BOT
-- want FAQ
-- FAQ Answer
 - FAQ
 - FAQ
+- FAQ
+- faq
 
 ## intent:Projects
 - Ongoing Projects
@@ -165,6 +164,7 @@
 - Nationaldatabank
 - National data bank
 - NATIONAL DAta BANK
+- NATIONALdataBANK
 
 ## intent:Project5
 - NPIQSI
@@ -293,32 +293,31 @@
 - SDRD
 
 ##intent: Indian Statistical Institute
-- Indian Statistical Institute
+- Indian India Statistical Institute
 - who is the head of Indian Statistical Institute
 - Indian Statistical Institute head
 - principal of Indian Statistical Institute
 - ISI
 - Responsible person for Indian Statistical Institute
 - Indian Statistical Institute
+- indianstatisticalinstitute
 
 
 ##intent: Indian Statistical Institute - Bangalore
-- Indian Statistical Institute - Bangalore
-- who is the head of Indian Statistical Institute - Bangalore
-- Indian Statistical Institute - Bangalore head
-- principal of Indian Statistical Institute - Bangalore
-- ISI of bangalore
-- ISI-Bangaloroe
-- Responsible person for Indian Statistical Institute - Bangalore
-- Indian Statistical Institute - Bangalore
+- Indian Statistical Institute - [Bangalore](Bangalore)
+- who is the head of Indian Statistical Institute - [Bangalore](Bangalore)
+- Indian Statistical Institute - [Bangalore](Bangalore) head
+- principal of Indian Statistical Institute - [Bangalore](Bangalore)
+- ISI of [Bangalore](Bangalore)
+- Responsible person for Indian Statistical Institute - [Bangalore](Bangalore)
+- Indian Statistical Institute - [Bangalore](Bangalore)
 
 
 ##intent: Indian Statistical Institute - Chennai
-- Indian Statistical Institute , Chennai
-- who is the head of Indian Statistical Institute , Chennai
-- Indian Statistical Institute , Chennai head
-- principal of Indian Statistical Institute , Chennai
-- ISI of Chennai
-- ISI-chennai
-- Responsible person for Indian Statistical Institute , Chennai
-- Indian Statistical Institute , Chennai
+- Indian Statistical Institute , [Chennai](Chennai)
+- who is the head of Indian Statistical Institute , [Chennai](Chennai)
+- Indian Statistical Institute , [Chennai](Chennai) head
+- principal of Indian Statistical Institute , [Chennai](Chennai)
+- ISI of [Chennai](Chennai)
+- Responsible person for Indian Statistical Institute , [Chennai](Chennai)
+- Indian Statistical Institute , [Chennai](Chennai)

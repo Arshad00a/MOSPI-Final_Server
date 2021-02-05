@@ -63,6 +63,19 @@ actions:
  - action_greet_gif
  - action_feedback
 
+entities:
+  - Chennai
+  - Bangalore
+  - India
+
+slots:
+  Chennai:
+    type: text
+  Bangalore:
+    type: text
+  India:
+    type: text
+
 responses:
   utter_Accounting:
     -

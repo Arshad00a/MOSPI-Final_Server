@@ -16,7 +16,7 @@
   - utter_greet
 * FAQ
   - action_FAQ_Link
-  - utter_FAQ  
+  - utter_FAQ
 * Projects
   - utter_projects
 * Project1
