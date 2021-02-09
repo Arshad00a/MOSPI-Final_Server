@@ -14,6 +14,12 @@
 ## bot happ
 * greet
   - utter_greet
+* Mospi
+  - utter_What_is_Mospi
+* Mospi_Located
+  - utter_Mospi_Located  
+* Departments  
+  - utter_Departments
 * FAQ
   - action_FAQ_Link
   - utter_FAQ

@@ -77,12 +77,17 @@
 
 ## intent:environmental
 - How we can follow on social media
+- Social media 
+- Social link 
+- follow link 
 
 ## intent:Accounting
 - What is National Accounting and Environment?
+- Natural Accounting and Enviroment
 
 ## intent:assets
 - What are natural assets?
+- natural assets
 
 
 ## intent:Land_Cover_use
@@ -119,6 +124,7 @@
 - FAQ
 - FAQ
 - faq
+- FAQ
 
 ## intent:Projects
 - Ongoing Projects
@@ -177,6 +183,7 @@
 - Who is the ceo of mospi ?
 - Mospi ceo
 - ceo
+- who is the head of ceo
 
 ## intent:GIF_Response
 - gif from rasa
@@ -293,14 +300,13 @@
 - SDRD
 
 ##intent: Indian Statistical Institute
-- Indian India Statistical Institute
-- who is the head of Indian Statistical Institute
-- Indian Statistical Institute head
-- principal of Indian Statistical Institute
-- ISI
-- Responsible person for Indian Statistical Institute
-- Indian Statistical Institute
-- indianstatisticalinstitute
+- [Indian Statistical Institute](Indian)
+- who is the head of [Indian Statistical Institute](Indian)
+- [Indian Statistical Institute](Indian) head
+- principal of [Indian Statistical Institute](Indian)
+- Responsible person for [Indian Statistical Institute](Indian)
+- [Indian Statistical Institute](Indian)
+- [indianstatisticalinstitute](Indian)
 
 
 ##intent: Indian Statistical Institute - Bangalore
@@ -321,3 +327,25 @@
 - ISI of [Chennai](Chennai)
 - Responsible person for Indian Statistical Institute , [Chennai](Chennai)
 - Indian Statistical Institute , [Chennai](Chennai)
+
+##intent: Mospi
+- what is MOSPI 
+- Mospi
+- What do you mean by Mospi
+- full form of mospi
+- whats mospi stands for
+- Mospi mean for
+
+##intent: Mospi_Located
+- where is MOSPI located 
+- Located
+- Mospi Location
+- Mospi located
+
+##intent: Departments
+- how many departments does MOSPI have ?
+- Mospi Departments
+- Mospi section
+- how many HOD mospi have
+- Mospi departments count
+

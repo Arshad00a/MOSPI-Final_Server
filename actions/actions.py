@@ -94,3 +94,4 @@ class Feedback(Action):
         message = {"payload": "Feedback"}
         dispatcher.utter_message(json_message=message)
         return []
+

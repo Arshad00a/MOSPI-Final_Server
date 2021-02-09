@@ -56,6 +56,9 @@ intents:
   - Indian Statistical Institute
   - Indian Statistical Institute - Bangalore
   - Indian Statistical Institute - Chennai
+  - Mospi
+  - Mospi_Located
+  - Departments
 
 actions:
  - action_FAQ_Link
@@ -66,14 +69,14 @@ actions:
 entities:
   - Chennai
   - Bangalore
-  - India
+  - Indian
 
 slots:
   Chennai:
     type: text
   Bangalore:
     type: text
-  India:
+  Indian:
     type: text
 
 responses:
@@ -158,6 +161,7 @@ responses:
   utter_ceo:
     -
       text: "Rao Inderjit Singh"
+      image: "https://timesofindia.indiatimes.com/thumb/msid-68262254,imgsize-53274,width-400,resizemode-4/68262254.jpg"
 
   utter_citizenship:
     -
@@ -261,7 +265,12 @@ responses:
     - text: "Dr. D. Sampangiraman \n sampangi@isichennai.res.in"
   utter_Indian Statistical Institute:
     - text: "Madhura Swaminathan \n sampangi@isichennai.res.in"
-
+  utter_What_is_Mospi:
+    - text: "This ministry is the nodal agency for the planned and organized development of the statistical system in the country among different stakeholders in Government of India, State Governments and meeting the requirements of the International Agencies"
+  utter_Mospi_Located:
+    - text: " New Delhi"
+  utter_Departments:
+    - text: "16"
 
 
 session_config:
