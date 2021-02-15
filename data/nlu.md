@@ -118,13 +118,13 @@
 -SEEA
  
 
-## intent:FAQ
-- FAQ
-- FAQ
-- FAQ
-- FAQ
-- faq
-- FAQ
+## intent:Ask_Faq
+- FAQ BOT
+- faq BOT
+- FAQBOT
+- FAQ-BOT
+- FAQ-BOT
+- FAQ-BOT
 
 ## intent:Projects
 - Ongoing Projects
@@ -173,17 +173,23 @@
 - NATIONALdataBANK
 
 ## intent:Project5
-- NPIQSI
-- NPIQSI
+- NPIQSI project5
+- NPIQSI Project5
+- NPIQSI Project5
 - npiqsi
-- NPIQSI
-- NPIQSI
+- npiqsi
+- NpIQsi 
+
+
 
 ## intent:Ceo
-- Who is the ceo of mospi ?
+- Who is the ceo of mospi
 - Mospi ceo
 - ceo
 - who is the head of ceo
+- MospiCEO
+- CEO of Mospi
+- CEO 
 
 ## intent:GIF_Response
 - gif from rasa
@@ -344,8 +350,17 @@
 
 ##intent: Departments
 - how many departments does MOSPI have ?
+- how many departments are there in mospi ?
 - Mospi Departments
 - Mospi section
 - how many HOD mospi have
 - Mospi departments count
 
+##intent: Departments_names
+- Department_names
+- what are the name of Departments
+- name of the Departments
+- Department names
+- share me the Department names
+- please provide me the Departments name
+- ALL departments names

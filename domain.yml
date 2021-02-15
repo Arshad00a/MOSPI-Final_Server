@@ -1,6 +1,6 @@
 ---
 intents:
-  - FAQ
+  - Ask_Faq
   - Projects
   - Project1
   - Project2
@@ -59,12 +59,14 @@ intents:
   - Mospi
   - Mospi_Located
   - Departments
+  - Departments_names
 
 actions:
  - action_FAQ_Link
  - action_project
  - action_greet_gif
  - action_feedback
+ - action_card
 
 entities:
   - Chennai
@@ -86,7 +88,7 @@ responses:
   utter_Categories:
     -
       text: "There are Nine Categories 1.	Forests 2.	Net area sown 3.	Area under non-agricultural uses 4.	Barren and unculturable land 5.	Permanent pastures and other grazing lands 6.	Land under miscellaneous tree crops, etc. 7.	Culturable waste land 8.	Current Fallow 9.	Fallow Land other than Current Fallow"
-  utter_FAQ:
+  utter_Ask_Faq:
     -
       text: "you can type in the question OR click on below link"
   utter_FAQ_link:
@@ -137,13 +139,13 @@ responses:
       buttons:
         -
           payload: "https://www.facebook.com/"
-          title: "FaceBook "
+          title: "FaceBook"
         -
           payload: "https://www.instagram.com/"
-          title: Instagram
+          title: "Instagram"
         -
           payload: "https://twitter.com/"
-          title: Twitter
+          title: "Twitter"
       text: "You Can Follow Us on"
   utter_affirm:
     -
@@ -181,21 +183,25 @@ responses:
       text: "For example , if the PIO dispatches the intimation letter on the 5th day from the date of receipt of the complete application only 5 days would have elapsed from the 30 days limit. The clock will restart on the date on which the applicant pays the further fees. The PIO will have to provide the information within 25 days from the date of payment of such further fees. If the applicant chooses to seek a review of the additional fee from the appellate authority or the SIC/CIC the period taken for giving a decision on this matter (if it is decided that no further payment is needed) or for actual payment of further fees (if it is decided that further fees would need to be paid), will not be included in the 30 day limit."
   utter_goodbye:
     -
-      text: Bye,See you again
+      text: Bye,See you again friend .
   utter_thanks:
-    - text: Anytime, happy to help you.
+    - text: Welcome, Happy to help you .
   utter_greet:
     -
       buttons:
         -
-          payload: "FAQ"
+          payload: "FAQ BOT"
           title: "FAQ"
         -
           payload: "Ongoing Projects"
           title: "Ongoing Projects"
         -
+          payload: "Departments names"
+          title: "Departments"
+        -
           payload: "Learn more"
           title: "Learn more"
+
       text: " Namaste 🙏🏻 welcome to MOSPI. We are delighted to have you here ! Please tell us what would you like to know."
   utter_iamabot:
     -
@@ -205,7 +211,7 @@ responses:
       text: "The application can be either in: 1.  Hindi 2.  English 3.  The official language of the area in which application is being made. "
   utter_learn_more:
     -
-      text: "The Ministry of Statistics and Programme Implementation came into existence as an Independent Ministry on 15.10.1999 after the merger of the Department of Statistics and the Department of Programme Implementatation. This ministry is the nodal agency for the planned and organized development of the statistical system in the country and coordination of statistical activities among different stakeholders in Government of India, State Governments as well as meeting requirements of the International Agencies"
+      text: "The Ministry of Statistics and Programme Implementation came into existence as an Independent Ministry on 15.10.1999 after the merger of the Department of Statistics and the Department of Programme Implementation. This ministry is the nodal agency for the planned and organized development of the statistical system in the country and coordination of statistical activities among different stakeholders in Government of India, State Governments as well as meeting requirements of the International Agencies"
   utter_payment:
     -
       text: "Central Government  Public Authorities, a request for obtaining information should be accompanied by an application fee of Rs. 10/- by way of:CashBy Demand Draft;Banker’s Cheque;IPO -payable to the Accounts officer of the Public Authority.Online (if the RTI application is filed online through RTI portal.)"
@@ -225,12 +231,12 @@ responses:
           payload: "National Data Bank"
           title: "National Data Bank"
         -
-          payload: "NPIQSI"
+          payload: "NPIQSI Project5"
           title: "NPIQSI"
-      text: "Here are the list of ongoing projects"
+      text: "Here is the list of ongoing projects"
 
   utter_default:
-    - text: "Sorry, I didn't underdstand please try again... or contact customer care "
+    - text: "Sorry, I couldn't understand please try again... or contact customer care "
 
 
   utter_Coordination and Publication (CAP) Division:
